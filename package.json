@@ -1,0 +1,26 @@
+{
+  "name": "wrk",
+  "version": "0.0.0",
+  "bin": [
+    "gz.js",
+    "m.js",
+    "grouped.js",
+    "zo.js"
+  ],
+  "license": "AGPL-3.0",
+  "scripts": {
+    "lint": "standard",
+    "deps": "standard && dependency-check . && dependency-check . --unused --no-dev"
+  },
+  "devDependencies": {
+    "dependency-check": "^3.1.0",
+    "standard": "^11.0.0"
+  },
+  "dependencies": {
+    "jheson": "^0.0.2",
+    "lodash.groupby": "^4.6.0",
+    "lodash.memoize": "^4.1.2",
+    "sort-keys": "^2.0.0",
+    "string-similarity": "^1.2.0"
+  }
+}

@@ -1,0 +1,5 @@
+node_modules
+.env
+.dat
+bla
+yarn-error.log
