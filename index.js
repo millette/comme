@@ -18,44 +18,52 @@ const cmp = (n, a, b) => {
   return 0
 }
 
-const calcImp = (w, x, i) => [i, Math.round(1000 * (w[i].length ? (w[i].length - 20) : 0) / (x.length ? (x.length - 20) : 0)) / 1000]
+const calcImp = (w, x, i) => [i, Math.round(1000 * (w[i].length ? (w[i].length - 20) : 0) / (x.length - 20)) / 1000]
+
+const calc = (dataGz, w, n) => dataGz.map(calcImp.bind(null, w)).sort(cmp.bind(null, 1))
+
+const press = (dataLike, r, x, i) => {
+  if (i === r) { return '' }
+  let it
+  if (x.length > dataLike[r].length) {
+    it = x + dataLike[r]
+  } else {
+    it = dataLike[r] + x
+  }
+  return gzipSync(it)
+}
 
 class Booya {
   constructor (json) {
     if (!json || !json.length) { return }
-    this.dataOrig = sortKeys(json, { deep: true })
+    this.dataOrig = sortKeys({ json }, { deep: true }).json
     this.dataLike = this.dataOrig.map((x) => JSON.stringify(x).replace(re, '').toLowerCase())
     this.dataGz = this.dataLike.map(gzipSync)
-    this.sorted = []
+    this.sorted = false
   }
 
-  press (r, x, i) {
-    if (i === r) { return '' }
-    let it
-    if (x.length > this.dataLike[r].length) {
-      it = x + this.dataLike[r]
-    } else {
-      it = this.dataLike[r] + x
-    }
-    return gzipSync(it)
-  }
-
-  calc (w, n) {
-    return this.dataGz.map(calcImp.bind(null, w)).sort(cmp.bind(null, 1))
+  add (item) {
+    if (!item) { return }
+    const it = sortKeys({ item }, { deep: true }).item
+    this.dataOrig.push(it)
+    const slim = JSON.stringify(it).replace(re, '').toLowerCase()
+    this.dataLike.push(slim)
+    this.dataGz.push(gzipSync(slim))
+    this.sorted = false
   }
 
   doit () {
     if (!this.dataLike || !this.dataLike.length) { return }
     this.sorted = this.dataLike
-      .map((y, r) => this.dataLike.map(this.press.bind(this, r)))
-      .map(this.calc)
+      .map((y, r) => this.dataLike.map(press.bind(null, this.dataLike, r)))
+      .map(calc.bind(null, this.dataGz))
       .map((x, i) => [x[1][1], i, x[1][0]])
       .sort(cmp.bind(null, 0))
   }
 
-  prepareDisplay () {
-    if (!this.sorted || !this.sorted.length) { return }
-    return this.sorted
+  prepareDisplay (pairsOnly) {
+    if (!this.sorted) { return }
+    let ret2 = this.sorted
       .map((x) => {
         const ret = x.slice()
         const iData = this.dataOrig[x[1]]
@@ -85,7 +93,27 @@ class Booya {
         }
         return ret
       })
-      .map((x) => x.join(' --- '))
+
+    if (pairsOnly) {
+      const ret3 = []
+      let c
+      let d
+
+      let c1
+      let d1
+      ret2.forEach((x) => {
+        c = x[1]
+        c1 = x[2]
+        ret2.forEach((y) => {
+          d = y[2]
+          d1 = y[1]
+          if (c === d && c1 === d1) { return ret3.push(x) }
+        })
+      })
+      ret2 = ret3.filter((x) => x[0])
+    }
+
+    return ret2.map((x) => x.join(' --- '))
   }
 }
 
