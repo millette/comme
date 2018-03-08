@@ -8,10 +8,14 @@
   "license": "AGPL-3.0",
   "scripts": {
     "lint": "standard",
+    "test": "standard && nyc ava",
     "deps": "standard && dependency-check . && dependency-check . --unused --no-dev"
   },
   "devDependencies": {
+    "ava": "^0.25.0",
+    "coveralls": "^3.0.0",
     "dependency-check": "^3.1.0",
+    "nyc": "^11.4.1",
     "standard": "^11.0.0"
   },
   "dependencies": {
