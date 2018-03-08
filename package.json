@@ -1,8 +1,9 @@
 {
   "name": "wrk",
   "version": "0.0.0",
+  "main": "index.js",
   "bin": [
-    "gz.js"
+    "cli.js"
   ],
   "license": "AGPL-3.0",
   "scripts": {
