@@ -1,6 +1,17 @@
 {
-  "name": "wrk",
+  "name": "comme",
+  "private": true,
+  "description": "Find similar items in arrays of objects.",
   "version": "0.0.0",
+  "repository": "millette/comme",
+  "author": {
+    "name": "Robin Millette",
+    "email": "robin@millette.info",
+    "url": "http://robin.millette.info"
+  },
+  "engines": {
+    "node": ">=8.9.4"
+  },
   "main": "index.js",
   "bin": [
     "cli.js"
@@ -9,7 +20,8 @@
   "scripts": {
     "lint": "standard",
     "test": "standard && nyc ava",
-    "deps": "standard && dependency-check . && dependency-check . --unused --no-dev"
+    "deps": "standard && dependency-check . && dependency-check . --unused --no-dev",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "devDependencies": {
     "ava": "^0.25.0",
