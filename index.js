@@ -6,10 +6,13 @@ const memoize = require('lodash.memoize')
 
 // core
 const zlib = require('zlib')
-// const gzipSync = memoize(zlib.gzipSync)
-const gzipSync = memoize((x) => zlib.gzipSync(x, {}).length - 10)
+// const gzipSync = memoize((x) => zlib.gzipSync(x, {}).length - 10)
+const gzipSync = memoize((x) => zlib.gzipSync(x, {}).length - 20)
 
-const re = /".+?":/g
+// const re = /".+?":/g
+// const re = /"[a-z_-]+":/g
+// const re = /("[a-z_-]+?":|"point"|"feature")/g
+const re = /("[a-z_-]+?":|"| )/g
 
 const cmp = (n, a, b) => {
   const ca = a[n]
@@ -19,14 +22,12 @@ const cmp = (n, a, b) => {
   return 0
 }
 
-// const calcImp = (w, x, i) => [i, Math.round(1000 * (w[i].length ? (w[i].length - 20) : 0) / (x.length - 20)) / 1000]
 const calcImp = (w, x, i) => [i, Math.round(1000 * w[i] / x) / 1000]
 
 const calc = (dataGz, w, n) => dataGz.map(calcImp.bind(null, w)).sort(cmp.bind(null, 1))
 
 const press = (dataLike, r, x, i) => {
-  // if (i === r) { return 0 }
-  if (i === r) { return '' }
+  if (i === r) { return 0 }
   let it
   if (x.length > dataLike[r].length) {
     it = x + dataLike[r]
@@ -40,7 +41,7 @@ class Booya {
   constructor (json) {
     if (!json || !json.length) { return }
     this.dataOrig = sortKeys({ json }, { deep: true }).json
-    this.dataLike = this.dataOrig.map((x) => JSON.stringify(x).replace(re, '').toLowerCase())
+    this.dataLike = this.dataOrig.map((x) => JSON.stringify(x).toLowerCase().replace(re, ''))
     this.dataGz = this.dataLike.map(gzipSync)
     this.sorted = false
   }
