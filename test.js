@@ -4,12 +4,6 @@ const Booya = require('.')
 
 const input = require('./jido2018.json').features
 
-/*
-test('arrays are equal', t => {
-  t.deepEqual([1, 2], [1, 2])
-})
-*/
-
 test('wrong ctor() args', t => {
   const foo = new Booya()
   t.falsy(foo.prepareDisplay())
