@@ -6,8 +6,8 @@ const memoize = require('lodash.memoize')
 
 // core
 const zlib = require('zlib')
-const gzipSync = memoize(zlib.gzipSync)
-// const gzipSync = memoize((x) => zlib.gzipSync(x, {}).length - 10)
+// const gzipSync = memoize(zlib.gzipSync)
+const gzipSync = memoize((x) => zlib.gzipSync(x, {}).length - 10)
 
 const re = /".+?":/g
 
@@ -19,11 +19,13 @@ const cmp = (n, a, b) => {
   return 0
 }
 
-const calcImp = (w, x, i) => [i, Math.round(1000 * (w[i].length ? (w[i].length - 20) : 0) / (x.length - 20)) / 1000]
+// const calcImp = (w, x, i) => [i, Math.round(1000 * (w[i].length ? (w[i].length - 20) : 0) / (x.length - 20)) / 1000]
+const calcImp = (w, x, i) => [i, Math.round(1000 * w[i] / x) / 1000]
 
 const calc = (dataGz, w, n) => dataGz.map(calcImp.bind(null, w)).sort(cmp.bind(null, 1))
 
 const press = (dataLike, r, x, i) => {
+  // if (i === r) { return 0 }
   if (i === r) { return '' }
   let it
   if (x.length > dataLike[r].length) {
@@ -53,13 +55,20 @@ class Booya {
     this.sorted = false
   }
 
+  // doit (f) {
   doit () {
-    if (!this.dataLike || !this.dataLike.length) { return }
+    if (!this.dataLike || !this.dataLike.length) {
+      this.sorted = false
+      return
+    }
+    // if (this.sorted) { return } // should also depend on f arg
+    // const ret = this.dataLike
     this.sorted = this.dataLike
       .map((y, r) => this.dataLike.map(press.bind(null, this.dataLike, r)))
       .map(calc.bind(null, this.dataGz))
       .map((x, i) => [x[1][1], i, x[1][0]])
       .sort(cmp.bind(null, 0))
+    // this.sorted = f ? ret.filter((x) => x[0] < f) : ret
   }
 
   prepareDisplay (pairsOnly) {
