@@ -7,6 +7,7 @@ const memoize = require('lodash.memoize')
 // core
 const zlib = require('zlib')
 const gzipSync = memoize(zlib.gzipSync)
+// const gzipSync = memoize((x) => zlib.gzipSync(x, {}).length - 10)
 
 const re = /".+?":/g
 
