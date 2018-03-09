@@ -30,7 +30,6 @@ test('after running doit()', t => {
   t.is(foo.prepareDisplay(true).length, 146)
 })
 
-/*
 test('after running doit(1.45)', t => {
   const foo = new Booya(input)
   foo.doit(1.45)
@@ -44,7 +43,6 @@ test('after running doit(1.2)', t => {
   t.is(foo.prepareDisplay().length, 43)
   t.is(foo.prepareDisplay(true).length, 36)
 })
-*/
 
 test('add() v0', t => {
   const foo = new Booya(input.slice(0, -1))

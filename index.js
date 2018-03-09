@@ -55,20 +55,18 @@ class Booya {
     this.sorted = false
   }
 
-  // doit (f) {
-  doit () {
+  doit (f) {
     if (!this.dataLike || !this.dataLike.length) {
       this.sorted = false
       return
     }
     // if (this.sorted) { return } // should also depend on f arg
-    // const ret = this.dataLike
-    this.sorted = this.dataLike
+    const ret = this.dataLike
       .map((y, r) => this.dataLike.map(press.bind(null, this.dataLike, r)))
       .map(calc.bind(null, this.dataGz))
       .map((x, i) => [x[1][1], i, x[1][0]])
       .sort(cmp.bind(null, 0))
-    // this.sorted = f ? ret.filter((x) => x[0] < f) : ret
+    this.sorted = f ? ret.filter((x) => x[0] < f) : ret
   }
 
   prepareDisplay (pairsOnly) {
