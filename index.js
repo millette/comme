@@ -6,124 +6,61 @@ const memoize = require('lodash.memoize')
 
 // core
 const zlib = require('zlib')
-// const gzipSync = memoize((x) => zlib.gzipSync(x, {}).length - 10)
-const gzipSync = memoize((x) => zlib.gzipSync(x, {}).length - 20)
 
-// const re = /".+?":/g
-// const re = /"[a-z_-]+":/g
-// const re = /("[a-z_-]+?":|"point"|"feature")/g
-const re = /("[a-z_-]+?":|"| )/g
+// const iii = require('./jido2018.json').features
+// const iii = require('./jido2018-new.json').features
 
-const cmp = (n, a, b) => {
-  const ca = a[n]
-  const cb = b[n]
-  if (ca > cb) { return 1 }
-  if (ca < cb) { return -1 }
-  return 0
-}
+const gzFloor = zlib.gzipSync('', {}).length
 
-const calcImp = (w, x, i) => [i, Math.round(1000 * w[i] / x) / 1000]
+const re = /("[a-z_-]+?":|[" ,{}[\]-]+?|https:\/\/|http:\/\/)/g
+const re2 = / +/g
+const o2s = (o) => JSON.stringify(o).toLowerCase().replace(re, ' ').replace(re2, ' ').trim()
 
-const calc = (dataGz, w, n) => dataGz.map(calcImp.bind(null, w)).sort(cmp.bind(null, 1))
+const shrinkRatio = memoize((x) => x && (x.length / (zlib.gzipSync(x, {}).length - gzFloor)))
 
-const press = (dataLike, r, x, i) => {
-  if (i === r) { return 0 }
-  let it
-  if (x.length > dataLike[r].length) {
-    it = x + dataLike[r]
-  } else {
-    it = dataLike[r] + x
-  }
-  return gzipSync(it)
-}
+const shrinkPairRatio = (a, b) => shrinkRatio((a > b) ? (a + b) : (b + a))
 
-class Booya {
-  constructor (json) {
-    if (!json || !json.length) { return }
-    this.dataOrig = sortKeys({ json }, { deep: true }).json
-    this.dataLike = this.dataOrig.map((x) => JSON.stringify(x).toLowerCase().replace(re, ''))
-    this.dataGz = this.dataLike.map(gzipSync)
-    this.sorted = false
-  }
+const shrinkWithRatio = (items, item) => items
+  .map(shrinkPairRatio.bind(null, item))
+  .map((sim, to) => ({ sim, to }))
+  .sort((a, b) => {
+    const ca = a.sim
+    const cb = b.sim
+    if (ca > cb) { return -1 }
+    if (ca < cb) { return 1 }
+    return 0
+  })
+  .slice(1)
 
-  add (item) {
-    if (!item) { return }
-    const it = sortKeys({ item }, { deep: true }).item
-    this.dataOrig.push(it)
-    const slim = JSON.stringify(it).replace(re, '').toLowerCase()
-    this.dataLike.push(slim)
-    this.dataGz.push(gzipSync(slim))
-    this.sorted = false
-  }
+const shrinkAllRatio = (items) => items
+  .map(shrinkWithRatio.bind(null, items))
+  .map((compare, from) => ({ from, compare }))
+  .sort((a, b) => {
+    const ca = a.compare[0].sim
+    const cb = b.compare[0].sim
+    if (ca > cb) { return -1 }
+    if (ca < cb) { return 1 }
+    return 0
+  })
 
-  doit (f) {
-    if (!this.dataLike || !this.dataLike.length) {
-      this.sorted = false
-      return
+const run = (input) => {
+  const sar = shrinkAllRatio(sortKeys({ input }, { deep: true }).input.map(o2s))
+  const dones = []
+  const balb = new Map()
+  sar.forEach(({ from, compare }) => balb.set(from, { ...compare[0], item: input[compare[0].to] }))
+
+  balb.forEach(({ to, sim }, from) => {
+    if (to === from) { return }
+    if (dones.indexOf(from) !== -1) { return }
+    dones.push(from, to)
+    const za = balb.get(to)
+    if (from === za.to) {
+      console.log(from, JSON.stringify(input[from]))
+      console.log(to, JSON.stringify(input[to]))
+      console.log()
     }
-    // if (this.sorted) { return } // should also depend on f arg
-    const ret = this.dataLike
-      .map((y, r) => this.dataLike.map(press.bind(null, this.dataLike, r)))
-      .map(calc.bind(null, this.dataGz))
-      .map((x, i) => [x[1][1], i, x[1][0]])
-      .sort(cmp.bind(null, 0))
-    this.sorted = f ? ret.filter((x) => x[0] < f) : ret
-  }
-
-  prepareDisplay (pairsOnly) {
-    if (!this.sorted) { return }
-    let ret2 = this.sorted
-      .map((x) => {
-        const ret = x.slice()
-        const iData = this.dataOrig[x[1]]
-        const nData = this.dataOrig[x[2]]
-        ret.push('PLACE')
-        if (iData.properties.place === nData.properties.place) {
-          ret.push(iData.properties.place + '*')
-        } else {
-          ret.push(iData.properties.place)
-          ret.push(nData.properties.place)
-        }
-
-        ret.push('PROGRAM')
-        if (iData.properties.program === nData.properties.program) {
-          ret.push(iData.properties.program + '*')
-        } else {
-          ret.push(iData.properties.program)
-          ret.push(nData.properties.program)
-        }
-
-        ret.push('URL')
-        if (iData.properties.url === nData.properties.url) {
-          ret.push(iData.properties.url + '*')
-        } else {
-          ret.push(iData.properties.url)
-          ret.push(nData.properties.url)
-        }
-        return ret
-      })
-
-    if (pairsOnly) {
-      const ret3 = []
-      let c
-      let d
-
-      let c1
-      let d1
-      ret2.forEach((x) => {
-        c = x[1]
-        c1 = x[2]
-        ret2.forEach((y) => {
-          d = y[2]
-          d1 = y[1]
-          if (c === d && c1 === d1) { return ret3.push(x) }
-        })
-      })
-      ret2 = ret3.filter((x) => x[0])
-    }
-
-    return ret2.map((x) => x.join(' --- '))
-  }
+  })
 }
 
-module.exports = Booya
+// run(iii)
+module.exports = run
