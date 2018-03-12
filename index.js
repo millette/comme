@@ -7,9 +7,6 @@ const memoize = require('lodash.memoize')
 // core
 const zlib = require('zlib')
 
-// const iii = require('./jido2018.json').features
-// const iii = require('./jido2018-new.json').features
-
 const gzFloor = zlib.gzipSync('', {}).length
 
 const re = /("[a-z_-]+?":|[" ,{}[\]-]+?|https:\/\/|http:\/\/)/g
@@ -62,5 +59,4 @@ const run = (input) => {
   })
 }
 
-// run(iii)
 module.exports = run
