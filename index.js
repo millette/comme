@@ -2,7 +2,7 @@
 
 // npm
 const sortKeys = require('sort-keys')
-const memoize = require('lodash.memoize')
+// const memoize = require('lodash.memoize')
 
 // core
 const zlib = require('zlib')
@@ -11,9 +11,18 @@ const gzFloor = zlib.gzipSync('', {}).length
 
 const re = /("[a-z_-]+?":|[" ,{}[\]-]+?|https:\/\/|http:\/\/)/g
 const re2 = / +/g
+
 const o2s = (o) => JSON.stringify(o).toLowerCase().replace(re, ' ').replace(re2, ' ').trim()
 
-const shrinkRatio = memoize((x) => x && (x.length / (zlib.gzipSync(x, {}).length - gzFloor)))
+/*
+const o2s = (o) => {
+  const ret = typeof o === 'object' ? JSON.stringify(o) : o
+  return ret.toLowerCase().replace(re, ' ').replace(re2, ' ').trim()
+}
+*/
+
+// const shrinkRatio = memoize((x) => x && (x.length / (zlib.gzipSync(x, {}).length - gzFloor)))
+const shrinkRatio = (x) => x && (x.length / (zlib.gzipSync(x, {}).length - gzFloor))
 
 const shrinkPairRatio = (a, b) => shrinkRatio((a > b) ? (a + b) : (b + a))
 
@@ -41,22 +50,42 @@ const shrinkAllRatio = (items) => items
   })
 
 const run = (input) => {
-  const sar = shrinkAllRatio(sortKeys({ input }, { deep: true }).input.map(o2s))
+  const inputTmp = typeof input[0] === 'string' ? input.map((x) => ({x})) : input.slice()
+  const sar = shrinkAllRatio(sortKeys({ inputTmp }, { deep: true }).inputTmp.map(o2s))
   const dones = []
   const balb = new Map()
   sar.forEach(({ from, compare }) => balb.set(from, { ...compare[0], item: input[compare[0].to] }))
-
+  const rets = []
   balb.forEach(({ to, sim }, from) => {
     if (to === from) { return }
     if (dones.indexOf(from) !== -1) { return }
     dones.push(from, to)
     const za = balb.get(to)
     if (from === za.to) {
-      console.log(from, JSON.stringify(input[from]))
-      console.log(to, JSON.stringify(input[to]))
-      console.log()
+      rets.push({
+        sim,
+        from: { item: input[from], id: from },
+        to: { item: input[to], id: to }
+      })
     }
   })
+  return rets
 }
 
-module.exports = run
+const yup = (iii, cnt = 50) => {
+  const similars = []
+  let last
+  let len = iii.length
+  while (cnt && last !== len) {
+    last = len
+    --cnt
+    run(iii).forEach((x, n) => {
+      iii[x.to.id] = {}
+      similars.push({ x, n, cnt })
+    })
+    len = iii.filter((x, i) => Object.keys(x).length).length
+  }
+  return similars
+}
+
+module.exports = { run, yup }
