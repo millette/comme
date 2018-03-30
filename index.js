@@ -2,7 +2,6 @@
 
 // npm
 const sortKeys = require('sort-keys')
-// const memoize = require('lodash.memoize')
 
 // core
 const zlib = require('zlib')
@@ -14,14 +13,6 @@ const re2 = / +/g
 
 const o2s = (o) => JSON.stringify(o).toLowerCase().replace(re, ' ').replace(re2, ' ').trim()
 
-/*
-const o2s = (o) => {
-  const ret = typeof o === 'object' ? JSON.stringify(o) : o
-  return ret.toLowerCase().replace(re, ' ').replace(re2, ' ').trim()
-}
-*/
-
-// const shrinkRatio = memoize((x) => x && (x.length / (zlib.gzipSync(x, {}).length - gzFloor)))
 const shrinkRatio = (x) => x && (x.length / (zlib.gzipSync(x, {}).length - gzFloor))
 
 const shrinkPairRatio = (a, b) => shrinkRatio((a > b) ? (a + b) : (b + a))

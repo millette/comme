@@ -1,0 +1,2524 @@
+{
+  "type": "FeatureCollection",
+  "origin": "https://opendataday.org/",
+  "updated": "2018-03-05T13:45:53.224Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Washington DC",
+        "program": "Open Data Day 2018: Help complete the 2018 U.S. City Open Data Census",
+        "url": "https://www.eventbrite.com/e/open-data-day-2018-help-complete-the-2018-us-city-open-data-census-tickets-42989484706",
+        "organizers": "Sunlight Foundation"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.033148,
+          38.904269
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Sokoto State Nigeria",
+        "program": "Open Sokoto 2018",
+        "urlOrig": "#N/A",
+        "nParticipants": 120,
+        "organizers": "Engage Diaspora Foundation Inc"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.247552,
+          13.005873
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Zagreb, Croatia",
+        "program": "Open Data Day 2018",
+        "urlOrig": "http://opendataday.org/",
+        "url": "http://opendataday.org",
+        "organizers": "Code for Croatia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.981919,
+          45.815011
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Sharjah UAE",
+        "program": "UAE Hackathon Sharjah, Data for Happiness",
+        "url": "https://www.tra.gov.ae/en/media-hub/hackathon.aspx",
+        "nParticipants": 200,
+        "organizers": "TRA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.478371,
+          25.286771
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Unnan",
+        "program": "Code for Shimane",
+        "url": "https://www.facebook.com/groups/142256849746661/permalink/172924730013206/?pnref=story",
+        "organizers": "Code for Shimane"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.900299,
+          35.307726
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Kinshasa, democratic republic of Congo",
+        "program": "Tracking Public Money in DRCongo",
+        "urlOrig": "",
+        "nParticipants": 300,
+        "organizers": "Narcisse Mbunzama, DRCongo Open Data Association"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.266293,
+          -4.441931
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Ciudad de Panamá, Panama",
+        "program": "Presentación Datos Abiertos del Municipio de Panamá",
+        "url": "https://www.instagram.com/p/BftaheBDZYJ/",
+        "nParticipants": 100,
+        "organizers": "Municipio de Panamá, Esri Panamá y Kernel Community Think Tank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.534758,
+          8.97091
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Aragón (Spain)",
+        "program": "Presentación nuevos servicios de Aragón Open Data: Open Analytics Data y nuevas utilidades de Open Social Data ",
+        "url": "http://opendata.aragon.es",
+        "organizers": "Aragón Open Data"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.891635,
+          41.653433
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Sherubtse College, Kanglung, Eastern Bhutan",
+        "program": "Mapping social infrastructure in Kanglung using OpenStreetMapping ",
+        "url": "https://www.facebook.com/sherubtse.mappers/",
+        "organizers": "Geographical Society, Sherubtse College, Royal University of Bhutan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.523688,
+          27.286715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Ferrara., Italy",
+        "program": "Conoscere i dati sulle diseguaglianze per raccontare i fatti e migliorare la salute di tutti i cittadini",
+        "url": "http://www.ferrarasalute.it/relazioni-pubbliche/news/conoscere-i-dati-sulle-diseguaglianze-per-raccontare-i-fatti-e-migliorare-la-salute-di-tutti-i-cittadini",
+        "nParticipants": 100,
+        "organizers": "#FerraraOpenSanita, Comune di Ferrara, Ordine dei Giornalisti dell’Emilia Romagna, AUSL Ferrara, AOU Ferrara, Università di Ferrara, Agenda Digitale dell’Emilia Romagna"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.619787,
+          44.838124
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Munich",
+        "program": "Open Data Hackathon Munich",
+        "url": "https://www.meetup.com/de-DE/code-for-muenchen/events/247507806/",
+        "organizers": "Landeshauptstadt München, CCC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.608375,
+          48.123849
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Kampala, Uganda",
+        "program": "Open Data Georeferencing",
+        "urlOrig": "by invitation only",
+        "nParticipants": 10,
+        "organizers": "Rohan Cooray"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.58252,
+          0.347596
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Dhaka, Bangladesh",
+        "program": "Dhaka OpenDataDay Mapathon with BHOOTs @Pathao",
+        "url": "https://www.facebook.com/groups/ask.bhoot/",
+        "nParticipants": 75,
+        "organizers": "Bangladesh Humanitarian OpenStreetMap Operations Team (BHOOT) & Pathao Ltd"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.401518,
+          23.793687
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Bratislava",
+        "program": "OpenData.sk Meetup #12",
+        "url": "https://utopia.sk/wiki/x/QoCjB",
+        "nParticipants": 25,
+        "organizers": "OpenData.sk initiative"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.101073,
+          48.14482
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Tokatsu",
+        "program": "IODD2018 in Code for Tohkatsu",
+        "url": "https://iodd2018cft.peatix.com/view",
+        "organizers": "Code for Tohkatsu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.90266,
+          35.85631
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "São Leopoldo, RIO GRANDE DO SUL, BRASIL",
+        "program": "Dia Internacional dos Dados Abertos",
+        "url": "http://www.unisinos.br/eventos/dia-internacional-dos-dados-abertos-ex123467-00001",
+        "organizers": "UNISINOS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.153468,
+          -29.795943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Los Angeles City Hall, USA",
+        "program": "LA City Council Meeting",
+        "urlOrig": "http://ens.lacity.org/clk/councilagendas/clkcouncilagendas3118730_02202018.html (sample agenda)",
+        "url": "http://ens.lacity.org/clk/councilagendas/clkcouncilagendas3118730_02202018.html",
+        "organizers": "Los Angeles Councilmember Monica Rodriguez, 7th District; Los Angeles City Controller Ron Galperin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2429316,
+          34.0535267
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Brasília",
+        "program": "Open Data Day 2018 - Brasília",
+        "url": "https://www.meetup.com/pt-BR/Calango-Hacker-Club/events/248225792/",
+        "organizers": "Otávio Carneiro, Calango Hacker Clube"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.893553,
+          -15.794782
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Abomey-Calavi Benin. The event concerned has been taking place since for long time and I want here to brief on them",
+        "program": "The overall events can be entitled: Data mobilization and use to support decision making",
+        "urlOrig": "https://www.gbif.org/search?q=Benin; this link is about large amount of data we published on GBIF and GBI Benin sites and therefore make them freely accessible worldwide the community to support their use and reuse to inform decisions. They are Open data. Many results are now available on the use and reuse of data such http://academicjournals.org/journal/IJBC/article-abstract/FB78CD066719",
+        "nParticipants": 50,
+        "organizers": "GBIF Benin: https://www.gbif.org/country/BJ/summary"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.4,
+          6.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Port Harcourt",
+        "program": "Let's Map our World:How to map with Openstreetmap",
+        "url": "https://web.facebook.com/uniquemappersteamportharcourt/",
+        "nParticipants": 100,
+        "organizers": "UniquMappersTeam(UMT)University of Port Harcourt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.937827,
+          4.907623
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Walnut Creek, USA",
+        "program": "Contra Costa Civic Hackathon for Open Data Day 2018",
+        "url": "https://www.eventbrite.com/e/contra-costa-civic-hackathon-for-open-data-day-2018-tickets-43005029200",
+        "nParticipants": 50,
+        "organizers": "Victory Workspace, Miller Media"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0640214,
+          37.8964605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Katowice, Poland",
+        "program": "Study of the Katowice’s Citizens Budget",
+        "url": "https://medialabkatowice.eu/en/events/study-of-the-katowices-citizens-budget/",
+        "nParticipants": 10,
+        "organizers": "Medialab Katowice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.023436,
+          50.252953
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Buffalo, NY USA",
+        "program": "Mayor Byron W. Brown's Civic Innovation Challenge Powered by AT&T",
+        "urlOrig": "www.buffaloinnovates.com",
+        "url": "http://www.buffaloinnovates.com",
+        "organizers": "Open Data Buffalo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.879354,
+          42.886641
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Kampala, Uganda",
+        "program": "Open-Contracting Data Clinic ",
+        "url": "https://africafoicentre.org/event/open-contracting-clinic-makerere-university/",
+        "nParticipants": 30,
+        "organizers": "Africa Freedom of Information Centre "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.570988,
+          0.329183
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Pasto, Colombia",
+        "program": "Lanzamiento periódico \"Le tengo el dato\" (Visualización de datos abiertos)",
+        "urlOrig": "http://gana.narino.gov.co/",
+        "url": "http://gana.narino.gov.co",
+        "organizers": "Gobierno Abierto de Nariño (Gobernación de Nariño)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.2776714,
+          1.2143119
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "riyadh",
+        "program": "OPEN DATA DAY",
+        "urlOrig": "",
+        "organizers": "Open Data Day"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.675296,
+          24.713552
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Belgrade, Serbia",
+        "program": "Open Data Week",
+        "urlOrig": "http://www.ite.gov.rs/aktuelnosti.php#a64",
+        "url": "http://www.ite.gov.rs/aktuelnosti.php",
+        "nParticipants": 200,
+        "organizers": "Office for IT and e-Government, UNDP, SEE ICT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.448922,
+          44.786568
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Helsinki, Finland",
+        "program": "March 2nd: Open Data Days in Helsinki - Day 2 \"Projects and working groups of Open Knowledge Finland\"",
+        "url": "https://www.okf.fi/odd18",
+        "organizers": "Open Knowledge Finland"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.92196,
+          60.16737
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Münster, Germany",
+        "program": "Offene Daten - Was wünschen sich die Bürgerinnen und Bürger der Stadt Münster?",
+        "url": "http://codeformuenster.org/opendataday/",
+        "nParticipants": 40,
+        "organizers": "CodeForMünster"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.62836,
+          51.961834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Louvain-la-Neuve",
+        "program": "Open Belgium 2018",
+        "urlOrig": "http://2018.openbelgium.be/",
+        "url": "http://2018.openbelgium.be",
+        "nParticipants": 300,
+        "organizers": "Open Knowledge Belgium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.610124,
+          50.668695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Kampala - Uganda ",
+        "program": "https://www.meetup.com/NetSquared-Uganda/events/246476636/",
+        "url": "https://www.meetup.com/NetSquared-Uganda/events/246476636/",
+        "nParticipants": 50,
+        "organizers": "Fund Africa Inc, Net-squared Kampala,  Alwenyi Catherine Cassidy +256 700 551037, catherinecassidy06@gmail.com, infofundafrica@gmail.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.585347,
+          0.3456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Yangon, Myanmar",
+        "program": "2018Map Challenge : Help Map Yangon!",
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLSfYp1bfO-89hZrgfyHrxVZ69rMfuBc9CJnrchi9m72Ndcxkrw/viewform?usp=sf_link",
+        "nParticipants": 100,
+        "organizers": "Phandeeyar , OneMap Myanmar,  Ride partner - Grab"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          96.156649,
+          16.772186
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Denton, Texas",
+        "program": "Denton Open Data Day 2018",
+        "urlOrig": " https://www.eventbrite.com/e/denton-open-data-day-2018-tickets-42316376421?ref=estw",
+        "url": "https://www.eventbrite.com/e/denton-open-data-day-2018-tickets-42316376421?ref=estw",
+        "nParticipants": 70,
+        "organizers": "Smart Denton Lab"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.124917,
+          33.214042
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Département de l'Allier",
+        "program": "Cartoparty",
+        "urlOrig": "http://www.allier.fr/",
+        "url": "http://www.allier.fr",
+        "organizers": "Conseil départemental de l'Allier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.333501,
+          46.56863
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Hachinohe, Japan",
+        "program": "Hachinohe, Japan",
+        "urlOrig": "Hachinohe, Japan",
+        "organizers": "Hachinohe, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Rivne, Ukraine",
+        "program": "Sick Elections",
+        "url": "https://www.facebook.com/cn.opora/posts/10155228880010108?pnref=story",
+        "nParticipants": 15,
+        "organizers": "Civil Network OPORA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.25015,
+          50.62201
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Taipei, Taiwan",
+        "program": "g0v hackathon",
+        "urlOrig": "hack.g0v.tw",
+        "url": "http://hack.g0v.tw",
+        "nParticipants": 120,
+        "organizers": "g0v jothon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.614506,
+          25.04101
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Tucson, AZ, USA",
+        "program": "Open Data Day Tucson 2018",
+        "url": "https://www.meetup.com/Code-for-Tucson/events/248009028/",
+        "nParticipants": 10,
+        "organizers": "Code for Tucson"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.9528435,
+          32.2311137
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Montevideo, Uruguay",
+        "program": "Open Data Day 2018",
+        "url": "https://www.meetup.com/es-ES/Cafes-de-DATA/events/248069696/",
+        "organizers": "DATA Uruguay, CÍVICO, La Diaria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.188301,
+          -34.888746
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Dublin, Ireland",
+        "program": "Driving Open Transport Data",
+        "url": "https://www.eventbrite.ie/e/driving-open-transport-data-tickets-43349968924",
+        "nParticipants": 50,
+        "organizers": "Derilinx, Department of Public Expenditure and Reform, National Transport Authority, Smart Dublin, Transport Infrastructure Ireland"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.26031,
+          53.349805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Novi Sad, Serbia",
+        "program": "Presentation of Open Data principles at the opening of the Spring School of Statistics",
+        "url": "http://www.blizanci.rs/statskola.php",
+        "nParticipants": 10,
+        "organizers": "Center for behavioral genetics (Faculty of Philosophy, University of Novi Sad / Department of Psyhology) and Be-OPEN project (University of Novi Sad, financed by European Comission, Erasmus+ Key Action 2)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.83355,
+          45.267135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Lusaka, Zambia",
+        "program": "The power of open data",
+        "urlOrig": "#N/A",
+        "nParticipants": 30,
+        "organizers": "OpenStreetMap Zambia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.322817,
+          -15.387526
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Nsukka,Nigeria",
+        "program": "Open Data Practical Training and Mapathon Using Openstreetmap",
+        "url": "https://web.facebook.com/LionMappersTeamNsukka/",
+        "nParticipants": 100,
+        "organizers": "LionMappersTeam(LMT)Nsukka,University of Nigeria,Nsukka"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.408288,
+          6.864455
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Conakry, Guinea",
+        "program": "The Open Mapping OpenStreetMap (OSM): which benefits for students?",
+        "urlOrig": "#N/A",
+        "nParticipants": 55,
+        "organizers": "The OSM Guinea community "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.58084,
+          9.67731
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "United Kingdom",
+        "program": "Celebrating the Open Data of Death",
+        "urlOrig": "#N/A",
+        "organizers": "Free UK Genealogy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.120117,
+          53.973859
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Handa, Aichi, Japan",
+        "program": "International Open Data Day in Handa",
+        "url": "https://www.facebook.com/events/2023928957882941/",
+        "nParticipants": 10,
+        "organizers": "Handa Open Data Promote and Use Organization"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.937961,
+          34.891718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Tampere, Finland",
+        "program": "Mindtrek 2018",
+        "urlOrig": "www.mindtrek.org/2018",
+        "url": "http://www.mindtrek.org/2018",
+        "nParticipants": 900,
+        "organizers": "Centre for Open Systems and Solutions - COSS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.707294,
+          61.510333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Vienna, Austria",
+        "program": "Open Data Day Vienna",
+        "url": "https://open.wien.gv.at/site/der-open-data-day-2018-wien-ist-dabei/",
+        "organizers": "City of Vienna"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.357675,
+          48.211003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "DLab",
+        "program": "Stories that Solve 2.0 - Empowering our stories with Data",
+        "urlOrig": "",
+        "nParticipants": 25,
+        "organizers": "She Codes for Change"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.239939,
+          -6.771316
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Wakayama,Japan",
+        "program": "International Open Data Day 2018 in Wakayama",
+        "url": "https://wacker.doorkeeper.jp/events/71395",
+        "organizers": "International Open Data Day in Wakayama Committee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.396194,
+          33.695979
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Maceio Al, Brazil",
+        "program": "Open Data Day Maceio (oddmcz)",
+        "url": "https://doity.com.br/oddmcz2018",
+        "nParticipants": 80,
+        "organizers": "Melquesedeque Balbino da Rocha, Hudson Gomes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.702164,
+          -9.652412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Little Rock, Arkansas, United States",
+        "program": "City of Little Rock Open Data Day",
+        "url": "https://www.eventbrite.com/e/little-rock-open-data-day-tickets-42986177815",
+        "nParticipants": 75,
+        "organizers": "City of Little Rock Data Governance Committee "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.351844,
+          34.667623
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Mexico City, Mexico",
+        "program": "Open Data Day 2018 - Ciudad de México",
+        "url": "https://socialtic.org/events/open-data-day-2018/",
+        "nParticipants": 200,
+        "organizers": "SocialTIC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.180652,
+          19.41208
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "İstanbul",
+        "program": "Open Data for Animal Rights",
+        "urlOrig": "www.verigazeteciligi.com",
+        "url": "http://www.verigazeteciligi.com",
+        "nParticipants": 20,
+        "organizers": "Dag Medya"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.978359,
+          41.008238
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Takaomachi (Hachiouji)",
+        "program": "IODD2018 Code for Hachioji 高尾山薬王院マッピングパーティ",
+        "url": "https://www.facebook.com/events/340107736489243/",
+        "organizers": "Code for Hachioji"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.269845,
+          35.63213
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Zapopan, México",
+        "program": "ODD: Datos abiertos para la participación ciudadana. ",
+        "url": "https://www.facebook.com/changemakerstec/",
+        "nParticipants": 100,
+        "organizers": "Grupo Estudiantil Changemakers, Gerardo Cruz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.454912,
+          20.735008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Bangkok, Thailand",
+        "program": "International Opendata Day : Bangkok",
+        "url": "http://opendataday.in.th",
+        "nParticipants": 200,
+        "organizers": "Social Technology Institute ( http://socialtech.or.th )"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.543399,
+          13.751161
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Tulsa, OK USA",
+        "program": "Tulsa Open Data Day",
+        "url": "https://www.eventbrite.com/e/tulsa-open-data-day-tickets-42770267020",
+        "nParticipants": 30,
+        "organizers": "Code for Tulsa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.958457,
+          36.0864021
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Colombia",
+        "program": "#RallyColombia",
+        "url": "https://app.sikuani.net/events/rallycolombia",
+        "nParticipants": 100,
+        "organizers": "Secretaría de Transparencia de la Presidencia de la República, el Ministerio de Hacienda y Crédito Público, el Ministerio de Tecnologías de la Información y las Comunicaciones y Open Knowledge Colombia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.074886,
+          4.601022
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Bishkek, Kyrgyzstan",
+        "program": "Data Journalism Hackathon #HackPoverty",
+        "url": "http://project533785.tilda.ws",
+        "nParticipants": 70,
+        "organizers": "School of Data Kyrgyzstan and American University in Central Asia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.625192,
+          42.817173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Curitiba/Paraná/Brazil",
+        "program": "Curitiba Open data Day Kids",
+        "url": "https://doity.com.br/open-data-day-curitiba-2018",
+        "nParticipants": 100,
+        "organizers": "Cristiane Ilkiv Garcia\nStephan Rodrigues Garcia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.253432,
+          -25.459923
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Suita",
+        "program": "Mapping Party --Let's dispatch the information about attraction of Senri New Town!",
+        "urlOrig": "",
+        "organizers": "Suita Center for Civic Public Activity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.51686,
+          34.759453
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Helsinki, Finland",
+        "program": "Kick-off to Open Data Day by Hel<3Dev & OKFI",
+        "url": "https://www.facebook.com/events/940493522793115/",
+        "organizers": "Helsinki Loves Developers/City of Helsinki and Open Knowledge Finland"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.922738,
+          60.167488
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Stuttgart",
+        "program": "Open Data Day 2018 Stuttgart",
+        "url": "https://www.meetup.com/de-DE/OK-Lab-Stuttgart-Meet-Up/events/248092908/",
+        "organizers": "OK Lab Stuttgart"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.183144,
+          48.790149
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Tunis, Tunisia",
+        "program": "Open Data Tunisia #onshor",
+        "url": "https://www.facebook.com/events/157066364996388/",
+        "nParticipants": 50,
+        "organizers": "onshor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.196852,
+          36.84305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Seoul, Korea",
+        "program": "Open Data Day in Korea",
+        "urlOrig": "#N/A",
+        "organizers": "Open Knowledge Korea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.977969,
+          37.566535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Xalapa, Veracruz, México",
+        "program": "Política de Datos Abiertos",
+        "url": "http://novusdata.gob.mx/DatosAbiertos.html",
+        "nParticipants": 100,
+        "organizers": "Oficina de Programa de Gobierno del Estado de Veracruz (PROGOB), Laboratorio Nacional de Informática Avanzada (LANIA) y Fondo de Empresas de la Universidad Veracruzana (FEUV)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.910181,
+          19.543775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Vienna, Austria",
+        "program": "Open Data Day Events in Vienna",
+        "url": "https://open.wien.gv.at/site/der-open-data-day-2018-wien-ist-dabei/",
+        "nParticipants": 80,
+        "organizers": "Open Government Competence Center Vienna & partners"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.357248,
+          48.210876
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Nicaragua ",
+        "program": "Auditoría Social + DA + Municipios ",
+        "urlOrig": "",
+        "nParticipants": 45,
+        "organizers": "DLGP + Redes "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.236174,
+          12.114993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Libreville (Gabon)",
+        "program": "Journée Internationale de l'Open Data ",
+        "url": "https://www.facebook.com/events/2022791251268958/",
+        "nParticipants": 50,
+        "organizers": "Communauté des Blogueurs du Gabon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.44508,
+          0.424717
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Colombia",
+        "program": "Hackathon AlimenData",
+        "url": "https://app.sikuani.net/events/71/register",
+        "organizers": "Secretaría de Transparencia de la Presidencia de la República, el Ministerio de Hacienda y Crédito Público, el Ministerio de Tecnologías de la Información y las Comunicaciones y Open Knowledge Colombia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.074886,
+          4.601022
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Kigali, Rwanda",
+        "program": "Open data for Slum upgrading/map Kangondo, Kigali",
+        "urlOrig": "#N/A",
+        "nParticipants": 24,
+        "organizers": "YouthMappers at INES-Ruhengeri"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.10322,
+          -1.933725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Via Tre Monti - Milazzo (ME) - Italia",
+        "program": "Via Tre Monti - Milazzo (ME) - Italia",
+        "urlOrig": "Via Tre Monti - Milazzo (ME) - Italia",
+        "organizers": "Via Tre Monti - Milazzo (ME) - Italia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Yaounde ",
+        "program": "IMPACTING CAMEROONIANS TO ADVANCE OPEN RESEARCH DATA ",
+        "url": "https://www.meetup.com/netsquaredyaounde-technology-Hub/events/246288384/",
+        "nParticipants": 600,
+        "organizers": "NETSQUARED YAOUNDE CAMEROON"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.502075,
+          3.848032
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Barcelona, Spain",
+        "program": "Reutilitzem Dades",
+        "urlOrig": "www.opendataday.cat",
+        "url": "http://www.opendataday.cat",
+        "nParticipants": 50,
+        "organizers": "ideograma, Iniciativa Barcelona Open Data"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.154301,
+          41.382863
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Kobe, Japan",
+        "program": "International Open Data Day 2018 in Kobe",
+        "url": "https://www.facebook.com/events/1242044385940061/",
+        "organizers": "Code for Kobe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.195359,
+          34.698202
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Bogor, Indonesia",
+        "program": "Fiscal Modelling of Extractive Industries ",
+        "urlOrig": "",
+        "nParticipants": 10,
+        "organizers": "Publish What You Pay Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.836837,
+          -6.604198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Ibadan, Nigeria ",
+        "program": "Citizen Participatory Audit for Public Accountability Using Open Data",
+        "urlOrig": "www.plsinitiative.org",
+        "url": "http://www.plsinitiative.org",
+        "nParticipants": 50,
+        "organizers": "Paradigm Leadership Support Initiative (PLSI)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.948855,
+          7.37881
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Guatemala City, Guatemala",
+        "program": "Open Data Day en Guatemala",
+        "urlOrig": "Escueladedatos.org",
+        "url": "http://escueladedatos.org",
+        "nParticipants": 50,
+        "organizers": "EscueladeDatos.org"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.522713,
+          14.628434
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "San Juan, Metro Manila, PH",
+        "program": "Open Day 2018 in Manila, Philippines",
+        "url": "https://ti.to/mapamore/odd2018",
+        "nParticipants": 40,
+        "organizers": "The MapAm❤re Initiative"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.04008,
+          14.59444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "La Paz, Bolivia",
+        "program": "ODD Bolivia",
+        "url": "https://www.facebook.com/boliviatechhub/",
+        "nParticipants": 50,
+        "organizers": "Willmar A. Pimentel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.119031,
+          -16.515141
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "hyogo amagasaki showa-dori 2-7-16",
+        "program": "Village of Temples Dungeon",
+        "url": "https://www.facebook.com/events/904385893073714/",
+        "organizers": " Code for Amagasaki"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.420402,
+          34.721113
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "toyama, takaoka Shimozekimachi 6-1",
+        "program": "IT festa @ Takaoka",
+        "url": "http://www.city.takaoka.toyama.jp/joho/event/it-festa2017.html",
+        "organizers": "Code for Takaoka(NAT)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.015116,
+          36.741559
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "San Salvador",
+        "program": "Datos & Café",
+        "urlOrig": "#N/A",
+        "nParticipants": 80,
+        "organizers": "Fundación Latitudes, Háblame de Respeto, Escuela de Datos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.218191,
+          13.69294
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Toyama nanto Fukumitsu 6923",
+        "program": "Community Bus and Oden party GTFS data",
+        "url": "https://www.facebook.com/events/2328320043860159/",
+        "organizers": "Code for Nanto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.871977,
+          36.559268
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Lugo di Romagna, Italy",
+        "program": "“Open Data: un anno dopo”",
+        "url": "http://www.labassaromagna.it/Unione-dei-Comuni/News/Open-Data-Day-VI-Edizione",
+        "nParticipants": 100,
+        "organizers": "Giovanni Baldini, Angela Magnani, Franco Morelli , Istituto Stoppa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.908185,
+          44.415051
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Bologna",
+        "program": "#ODD2018 Bologna: Dati & Donne Le correlazioni pericolose, le disuguaglianze strutturali",
+        "url": "https://educazioneaperta.eu/wp/open-data-day-2018-donne-dati/",
+        "nParticipants": 50,
+        "organizers": "Open Education Italia, Associazione Orlando, Comune di Bologna"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.327591,
+          44.498955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Tunis, Lac 2, Level 1",
+        "program": "Tunis, Lac 2, Level 1",
+        "urlOrig": "Tunis, Lac 2, Level 1",
+        "organizers": "Tunis, Lac 2, Level 1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Gifu",
+        "program": "Let's Post an emotional Takayama's \"Scenery Photo\"",
+        "urlOrig": "https://iodd2018gifu.peatix.com/",
+        "url": "https://iodd2018gifu.peatix.com",
+        "organizers": "Code for Gifu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.760654,
+          35.423298
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Cochabamba",
+        "program": "#ODD18 Mujeres",
+        "url": "http://bit.ly/ODD18Mujeres",
+        "organizers": "Warmi.Red - Cuántas Más"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.148125,
+          -17.373789
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Inagi",
+        "program": "Dressing Meeting",
+        "url": "https://www.facebook.com/events/158662774836847/",
+        "organizers": "Inagi biyori"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.504567,
+          35.637924
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Sapporo, Japan",
+        "program": "International OpenData day 2018 Sapporo",
+        "url": "https://connpass.com/event/80202/",
+        "nParticipants": 30,
+        "organizers": "Yasuto FURUKAWA, Code for Sapporo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.352565,
+          43.046279
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Madagascar",
+        "program": "\"Open data on public finances in Madagascar\"",
+        "urlOrig": "#N/A",
+        "nParticipants": 100,
+        "organizers": "Transparency International Initiative Madagascar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.507905,
+          -18.87919
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Achi(Kurashiki)",
+        "program": "International Open Data Day 2018 in Kurashiki",
+        "url": "http://d-cradle.or.jp/info/info_detail/index/67.html",
+        "organizers": "data CRADLE, Code for Kurashiki"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.770103,
+          34.597257
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "New York City, USA",
+        "program": "NYC School of Data 2018",
+        "url": "https://schoolofdata.nyc",
+        "nParticipants": 200,
+        "organizers": "BetaNYC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.990707,
+          40.74218
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Yaounde-Cameroon",
+        "program": "OpenData Journalist",
+        "url": "https://web.facebook.com/events/2099840236929592/",
+        "nParticipants": 30,
+        "organizers": "Digital Rights Access Association, Rigobert Kenmogne, Gabriel Ename"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.502075,
+          3.848032
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Abu Dhabi, UAE",
+        "program": "UAE Data for Happiness",
+        "urlOrig": "hackathon.government.ae",
+        "url": "http://hackathon.government.ae",
+        "nParticipants": 200,
+        "organizers": "Katherine Townsend, Hessa Al Shamsi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.478371,
+          25.286771
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Honolulu, Hawaii",
+        "program": "Open Data Day 2018 (Hawaii)",
+        "url": "https://opendataday2018.eventbrite.com",
+        "nParticipants": 50,
+        "organizers": "Hawaii Open Data"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -157.858333,
+          21.306944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Chile",
+        "program": "Rally #DatosEnLaCalle",
+        "urlOrig": "www.opendataday.cl/rally",
+        "url": "http://www.opendataday.cl/rally",
+        "nParticipants": 100,
+        "organizers": "Observatorio del Gasto Fiscal en Chile, Ministerio de Obras Públicas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.65387,
+          -33.442909
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Ishikawa, Japan",
+        "program": "大雪災害について考えよう 〜 インターナショナル・オープンデータ・デイ2018 in Ishikawa",
+        "url": "https://www.facebook.com/events/162559927725035/",
+        "nParticipants": 50,
+        "organizers": "Code for Kanazawa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.625573,
+          36.594682
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "San Francisco California United States",
+        "program": "Open Data Day San Francisco",
+        "url": "https://www.eventbrite.com/e/code-for-san-francisco-open-data-day-2018-tickets-42826162204",
+        "nParticipants": 100,
+        "organizers": "Open Data Bay Area, Lisa Green"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.397658,
+          37.77873
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Bogotá",
+        "program": " ¿Para qué y cómo generar procesos de apropiación de Datos Abiertos?",
+        "url": "https://somosmas.org/boletines/2018/openday/",
+        "nParticipants": 50,
+        "organizers": "Corporación Somos Más, Open North, Iniciativa Latinoamericana por los Datos Abiertos (ILDA), Ministerio TIC Colombia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.073429,
+          43.692287
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Jakarta, Indonesia",
+        "program": "Data Driven Journalism Workshop",
+        "urlOrig": "",
+        "nParticipants": 60,
+        "organizers": "Satu Data Indonesia, Alliance of Independent Journalists, Jakarta Smart City"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.820403,
+          -6.221282
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Frankfurt am Main, DE",
+        "program": "Open Data Day Hackathon",
+        "url": "https://www.meetup.com/de-DE/OKLabFfm/events/245260067/",
+        "organizers": "Bogomir Engel, Mischa Zöller"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.706141,
+          50.125401
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "FabLab / Coworking Heilbronn",
+        "program": "Open Data Day 2018 Heilbronn\n",
+        "url": "https://www.meetup.com/codeforhn/events/246402098/",
+        "nParticipants": 25,
+        "organizers": "Adrian Stabiszewski"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2203,
+          49.139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Panama",
+        "program": "Datos y Pintas III ",
+        "urlOrig": "www.ipandetec.org",
+        "url": "http://www.ipandetec.org",
+        "nParticipants": 50,
+        "organizers": "IPANDETEC - Datos Abiertos Panamá"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.782127,
+          8.537981
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Woodstock Bandwidth Barn, Cape Town, South Africa",
+        "program": "Cape Town Open Data Hackathon",
+        "urlOrig": "#N/A",
+        "nParticipants": 50,
+        "organizers": "\"Cape Innovation and Technology Initiative\"  and City Of Cape Town"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.446093,
+          -33.926453
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Havana, Cuba",
+        "program": "¡Vamos a mapear La Habana!",
+        "urlOrig": "#N/A",
+        "nParticipants": 30,
+        "organizers": "OSM Cuban Community"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.366596,
+          23.113592
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Cologne, Germany",
+        "program": "Open Data Day Cologne",
+        "url": "http://open-data-day-2018.hack.institute",
+        "organizers": "hack.institute & OK Lab Köln"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.945715,
+          50.930282
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Medellin, Colombia",
+        "program": "UdeA training in OSM",
+        "urlOrig": "",
+        "organizers": "Universidad de Antioquia's Youthmappers chapter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.567391,
+          6.268898
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Ikoma, Nara, Japan",
+        "program": "Open Data Drinking Party in IKOMA",
+        "url": "https://facebook.com/events/423095421484493",
+        "nParticipants": 20,
+        "organizers": "CODE for IKOMA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.698848,
+          34.695067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Myo Obiraki (Hachinohe)",
+        "program": "International Open Data Day 2018 in Aomori, Hachinohe, and Hirosaki",
+        "url": "http://www.pref.aomori.lg.jp/sangyo/energy/iodd2018aomori.html",
+        "organizers": "Aomori Public Private Data Utilization Promotion Consortium (あおもり官民データ活用推進コンソーシアム)）, Aomori University, and Prefecture Aomori"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.562761,
+          40.479642
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Bucharest, Romania",
+        "program": "Culture Hack",
+        "url": "https://www.facebook.com/events/146996179392902/",
+        "nParticipants": 50,
+        "organizers": "Center for Public Innovation & OGP Romania"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.102142,
+          44.439218
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Lagos, Nigeria",
+        "program": "Data Science Lagos ",
+        "urlOrig": "TBD",
+        "nParticipants": 50,
+        "organizers": "Akin-Awokoya Emmanuel (InvestXD), Oluwole Oyekanmi(Quantextive)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.446852,
+          6.443395
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Tehran",
+        "program": "Open Data Day 2018 @ Shahid Beheshti (National) University (of Iran)",
+        "url": "http://www.sigchi.ir",
+        "organizers": "Dr. Kaveh Bazargan (SBU / SIGCHI.IR)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.392683,
+          35.798877
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Panama",
+        "program": "Hackaton del Día de los Datos Abiertos ",
+        "url": "https://www.eventbrite.com/e/hackaton-del-dia-de-los-datos-abiertos-tickets-43585422171",
+        "nParticipants": 50,
+        "organizers": "IPANDETEC "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.519064,
+          9.029204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Atlanta, Georgia, USA",
+        "program": "Atlanta Greenspace Hackathon",
+        "url": "https://www.eventbrite.com/e/atlanta-greenspace-hackathon-tickets-42438262987",
+        "organizers": "Code for Atlanta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.365967,
+          33.772517
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Itan , Tehran , Iran",
+        "program": "Transparency and supervisory organizations in Iran",
+        "url": "http://register.tp4.ir",
+        "nParticipants": 35,
+        "organizers": "Transparency4Iran"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.386901,
+          35.72308
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Santiago, Chile",
+        "program": "OpenDataDay Santiago",
+        "urlOrig": "www.opendataday.cl",
+        "url": "http://www.opendataday.cl",
+        "nParticipants": 120,
+        "organizers": "Programa de Modernización del Sector Público, Ministerio de Hacienda; Observatorio de Gasto Fiscal; DataChile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.626071,
+          -33.442517
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Abidjan (Côte d'Ivoire)",
+        "program": "Visualize geographical data on Côte d'Ivoire Extractive Industries.",
+        "urlOrig": "",
+        "nParticipants": 15,
+        "organizers": "Idriss KONE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.024429,
+          5.345317
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Fukuoka",
+        "program": "Kick Off of Code for Fukuoka:  \"Idea Sketch Workshop\"",
+        "url": "http://www.bodik.jp/event/4455/",
+        "organizers": "Big Data & Open Data in Kyushu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.401716,
+          33.590355
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Newcastle upon Tyne, United Kingdom",
+        "program": "CodefromtheNortheast informal hang out 2018",
+        "url": "https://www.facebook.com/events/186083548671555/",
+        "nParticipants": 10,
+        "organizers": "Diogo Pereira Henriques, Ajay Tiwary, and Geetika Aggarwal; from #CodefromtheNortheast"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.608754,
+          54.978633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "El Salvador",
+        "program": "#DatosAbiertos El Salvador 2018",
+        "urlOrig": "#N/A",
+        "organizers": "DatosElSalvador"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.228966,
+          13.694325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Miami, FL, USA",
+        "program": "International Open Data Day",
+        "url": "https://www.eventbrite.com/e/international-open-data-day-tickets-42648520874",
+        "nParticipants": 100,
+        "organizers": "Code for Miami, Florida International University"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.19179,
+          25.76168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "New Orleans",
+        "program": "Hacks/Hackers Open Data Day 2018",
+        "url": "https://www.meetup.com/Hacks-Hackers-New-Orleans/events/248003191/",
+        "organizers": "Samantha Sunne, Hacks/Hackers"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.046529,
+          29.964614
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Riga, Latvia",
+        "program": "Dattack",
+        "url": "http://dattack.lv/en/",
+        "nParticipants": 100,
+        "organizers": "Staro Riga, Metasphere, Krisjanis Rijnieks"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.106773,
+          56.955496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Porto Alegre",
+        "program": "Dia dos Dados Abertos POA",
+        "url": "https://goo.gl/forms/GJ6vsDL6IPbrbTGe2",
+        "nParticipants": 40
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.217658,
+          -30.034647
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Geneva Switzerland",
+        "program": "Open data for Humanitarian Action",
+        "urlOrig": "staff only",
+        "nParticipants": 30,
+        "organizers": "IFRC and HDX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.143158,
+          46.204391
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Oyo,Nigeria",
+        "program": "Open Data Mapping Using OpenstreetMap",
+        "url": "https://web.facebook.com/Oyomappersteam-omt-oyo-1432864713415765/?ref=your_pages",
+        "nParticipants": 70,
+        "organizers": "OyoMappersTeam(OMT)Federal School of Surveying,Oyo,Nigeria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.225725,
+          8.123388
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Zagreb",
+        "program": "Open Data Day 2018",
+        "urlOrig": "https://odd.codeforcroatia.org/",
+        "url": "https://odd.codeforcroatia.org",
+        "organizers": "Code for Croatia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.981919,
+          45.815011
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Inagi, TOKYO, JAPAN",
+        "program": "IODD2018 in Inagi",
+        "urlOrig": "goo.gl/wH8A6p",
+        "url": "http://goo.gl/wH8A6p",
+        "organizers": "Eri Sugiyama"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.468592,
+          35.627684
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Brussels, Belgium",
+        "program": "Towards Clean Air with Open Data",
+        "url": "https://cleanairwithopendata.eventbrite.co.uk",
+        "nParticipants": 100,
+        "organizers": "Open Knowledge Belgium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.357473,
+          50.845512
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Kochi, India",
+        "program": "MapMyData",
+        "urlOrig": "",
+        "nParticipants": 60,
+        "organizers": "PanApps / Assyst International Pvt Ltd"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.333526,
+          10.073129
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "#REF!",
+        "program": "#REF!",
+        "urlOrig": "#REF!",
+        "organizers": "#REF!"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Austin, Texas",
+        "program": "Open Data Day ",
+        "url": "https://www.meetup.com/Open-Austin/events/zfmdhpyxfbfb/",
+        "organizers": "Open Austin "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.740544,
+          30.268994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Santanda, Yamanome, Ichinoseki, Iwate, Japan",
+        "program": "IODD 2018 Ichinoseki",
+        "urlOrig": "",
+        "organizers": "UDC一関拠点連絡会議（UDC Ichinoseki Kyoten Renraku Kaigi）"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.120056,
+          38.931587
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Antananarivo",
+        "program": "Open Data for Citizens",
+        "urlOrig": "TBD",
+        "organizers": "MAdagascar Initiatives for Digital Innovation"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.53613,
+          -18.91368
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Kampala",
+        "program": "Mapathon to Strengthen and Expand the Network",
+        "url": "http://mapuganda.org/recent-activities",
+        "nParticipants": 20,
+        "organizers": "MapUganda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.594,
+          0.34184
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Akure, Nigeria",
+        "program": "Building a resilience Akure City, with open mapping ",
+        "urlOrig": "#N/A",
+        "nParticipants": 60,
+        "organizers": "Youthmappers FUTA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.137,
+          7.3043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Birmingham, UK",
+        "program": "Data Dig: Civil Society & Open Data expedition",
+        "url": "https://www.eventbrite.co.uk/e/data-dig-civil-society-open-data-expedition-registration-42570265811?utm_source=eb_email&utm_medium=email&utm_campaign=order_confirmation_email&utm_term=eventname&ref=eemailordconf",
+        "nParticipants": 25,
+        "organizers": "Pauline Roche, Ted Ryan (RnR Organisation), Simon Whitehouse, Mike Cummins (Data Unlocked)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.888244,
+          52.489254
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Patan Durbar Square, Nepal",
+        "program": "Open Data Day Nepal 2018",
+        "url": "https://www.facebook.com/events/236362010240347/",
+        "nParticipants": 500,
+        "organizers": "Center for Data Journalism, Freedom Forum, Kathmandu Living Labs, Local Interventions Group, Nepal in Data, Open Knowledge Nepal, Open Nepal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.325294,
+          27.672731
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Bogota, Colombia",
+        "program": "Día De Datos Abiertos Despacio",
+        "url": "http://www.despacio.org/2018/02/08/dia-de-datos-abiertos-despacio/",
+        "nParticipants": 30,
+        "organizers": "www.despacio.org"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.058309,
+          4.669655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Chuo (Ueda)",
+        "program": "Open Data Day 2018 in Ueda",
+        "urlOrig": "http://www.nagano.ac.jp/news/2018-0303/index.html",
+        "url": "http://www.nagano.ac.jp/news/2018-0303/",
+        "organizers": "長野大学、シルクロード長野ネットワーク"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.253064,
+          36.400442
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Tokyo",
+        "program": "Tokyo",
+        "urlOrig": "Tokyo",
+        "url": "http://tokyo",
+        "organizers": "Tokyo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "fukui sabae nishiyama 13−13−1",
+        "program": "Lets create application in the Village International Open Data Day Sabae",
+        "url": "https://www.facebook.com/events/1907321896247919",
+        "organizers": "Sabae town and Code for Sabae"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.184074,
+          35.956478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Amagasaki City Japan",
+        "program": "てらまちアーカイブダンジョン",
+        "url": "https://www.facebook.com/events/904385893073714/",
+        "nParticipants": 20,
+        "organizers": "Code for Amagasaki"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.406376,
+          34.733734
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Jodhpur",
+        "program": "Play with Data",
+        "urlOrig": "fossyatra.wordpress.com",
+        "url": "http://fossyatra.wordpress.com",
+        "nParticipants": 50,
+        "organizers": "Team FossYatra"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.986926,
+          26.271
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Los Angeles",
+        "program": "Time to #MapCAsFuture",
+        "url": "https://www.eventbrite.com/e/time-to-mapcasfuture-tickets-43372090089",
+        "organizers": "Aayushi Jain and Patrick Atwater"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2373873,
+          34.0407639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "Fortaleza - Brasil",
+        "program": "Open Data Day UFC",
+        "urlOrig": "",
+        "organizers": "Labocart - UFC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.573561,
+          -3.746096
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place": "İstanbul",
+        "program": "Open Data For Fair Public Transportation in İstanbul",
+        "url": "http://www.verigazeteciligi.com/2018-acik-veri-gunu-open-data-day-2018-etkinlik-kayitlari-basladi/",
+        "nParticipants": 20,
+        "organizers": "Dağ Medya"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.978359,
+          41.008238
+        ]
+      }
+    }
+  ]
+}
