@@ -40,7 +40,7 @@ const shrinkAllRatio = (items) => items
     return 0
   })
 
-const run = (input) => {
+const run = (input, slim) => {
   const inputTmp = typeof input[0] === 'string' ? input.map((x) => ({x})) : input.slice()
   const sar = shrinkAllRatio(sortKeys({ inputTmp }, { deep: true }).inputTmp.map(o2s))
   const dones = []
@@ -53,24 +53,30 @@ const run = (input) => {
     dones.push(from, to)
     const za = balb.get(to)
     if (from === za.to) {
-      rets.push({
+      const it = {
         sim,
-        from: { item: input[from], id: from },
-        to: { item: input[to], id: to }
-      })
+        from: { id: from },
+        to: { id: to }
+      }
+      if (!slim) {
+        it.from.item = input[from]
+        it.to.item = input[to]
+      }
+      rets.push(it)
     }
   })
   return rets
 }
 
-const yup = (iii, cnt = 50) => {
+const yup = (iii, { cnt, slim } = { }) => {
+  if (!cnt) { cnt = 50 }
   const similars = []
   let last
   let len = iii.length
   while (cnt && last !== len) {
     last = len
     --cnt
-    run(iii).forEach((x, n) => {
+    run(iii, slim).forEach((x, n) => {
       iii[x.to.id] = {}
       similars.push({ x, n, cnt })
     })
