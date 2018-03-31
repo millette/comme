@@ -1,6 +1,5 @@
 {
   "name": "comme",
-  "private": true,
   "description": "Find similar items in arrays of objects.",
   "version": "0.0.1",
   "repository": "millette/comme",
@@ -10,11 +9,13 @@
     "url": "http://robin.millette.info"
   },
   "engines": {
-    "node": ">=8.10.0"
+    "node": ">=8.11.1"
   },
   "main": "index.js",
-  "bin": [
-    "cli.js"
+  "keywords": [
+    "sri",
+    "html",
+    "cdn"
   ],
   "license": "AGPL-3.0",
   "scripts": {
