@@ -1,7 +1,7 @@
 {
   "name": "comme",
   "description": "Find similar items in arrays of objects.",
-  "version": "0.0.1",
+  "version": "2.0.0",
   "repository": "millette/comme",
   "author": {
     "name": "Robin Millette",
