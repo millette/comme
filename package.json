@@ -12,11 +12,6 @@
     "node": ">=8.11.1"
   },
   "main": "index.js",
-  "keywords": [
-    "sri",
-    "html",
-    "cdn"
-  ],
   "license": "AGPL-3.0",
   "scripts": {
     "lint": "standard",
