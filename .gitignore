@@ -4,8 +4,6 @@ node_modules
 bla
 yarn-error.log
 .nyc_output
-
-
 collectionsechantillon.json
 jido2018-new.json
 mtl-a.txt
@@ -43,3 +41,13 @@ tadam-g.txt
 tadam.txt
 yo.txt
 coll-a.txt
+jido-1.json
+jido-150.json
+jido-2.json
+jido-new-1.json
+jido-new-150.json
+jido-new-2.json
+jido2018-sample-150-1.json
+jido2018-sample-150-2.json
+trala-slim.txt
+trala.txt
